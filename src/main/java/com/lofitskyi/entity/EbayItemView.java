@@ -11,10 +11,7 @@ import java.math.BigDecimal;
 public class EbayItemView {
     private String name;
     private String ebayLink;
-    private String amzLink;
     private String sku;
-    private String available;
-    private BigDecimal docPrice;
+    private String docPrice;
     private String ebayPrice;
-    private BigDecimal amzPrice;
 }
