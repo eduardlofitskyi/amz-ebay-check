@@ -1,5 +1,6 @@
 package com.lofitskyi.api;
 
+import com.lofitskyi.entity.EbayItemView;
 import com.lofitskyi.entity.Item;
 import com.lofitskyi.service.CheckService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +16,7 @@ public class CheckController {
     private CheckService service;
 
     @GetMapping(path = "/price")
-    public List<Item> runMetricCounting(){
+    public List<EbayItemView> runMetricCounting(){
         return service.checkAllForPrices();
     }
 }
