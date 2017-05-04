@@ -1,7 +1,6 @@
 package com.lofitskyi.api;
 
 import com.lofitskyi.entity.EbayItemView;
-import com.lofitskyi.entity.Item;
 import com.lofitskyi.service.CheckService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
